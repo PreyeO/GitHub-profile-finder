@@ -1,0 +1,100 @@
+
+.repos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 10px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.repos-card {
+  text-align: center;
+  border: 2px solid #33E5BB;
+  width: 300px;
+  padding-top: 10px;
+  word-spacing: 1px;
+  font-size: 15px;
+  color: #dfd3d3;
+  height: 270px;
+  background: #022e59;
+  align-items: center;
+  
+}
+
+.repos-card .repos-name{
+  font-size: 18px;
+}
+.repos-btns {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.repos-btns button{
+ padding: 5px;
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  color: white;
+  background-color: #022e59;
+  border: 1px solid #0256ab;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.repos-btns button:hover{
+  background-color: #19a786;
+  transition: 1s;
+  border: 1px solid white;
+}
+
+.pagination-btns {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  
+  
+  
+}
+.pagination-btns a {
+  padding: 10px;
+  background: #022e59;
+  margin: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #33E5BB ;
+  cursor: pointer;
+}
+.pagination-btns a:hover {
+  background-color:#1068c0
+   
+}
+.active-btn a {
+  background-color:#1068c0
+}
+.disabled-btn a {
+  opacity: 0.3;
+}
+.disabled-btn a:hover {
+  cursor: not-allowed;
+  background-color: antiquewhite;
+}
+
+@media screen and (min-width: 768px) {
+.repos-card{
+  transform: translateY(20%);
+}
+.pagination-btns{
+  transform: translateY(200px);
+  
+}
+.pagination-btns a{
+  padding: 20px;
+  
+}
+}

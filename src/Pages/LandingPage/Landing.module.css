@@ -1,0 +1,64 @@
+.welcome_page{
+ 
+  margin-top: 30px;
+ 
+}
+.welcome_page input{
+ height:30px;
+ outline: none;
+ border-radius: 5px;
+ width:200px;
+ text-align: center;
+ font-size: 16px;
+}
+.welcome_page button{
+  height:35px;
+  border-radius: 5px;
+  width: 70px;
+  font-size: 16px;
+  background: #022e59;
+  color:#33E5BB;
+  border: transparent;
+  cursor: pointer;
+ 
+}
+.owner h3{
+  padding-top: 50px;
+}
+.owner button{
+  width:100px;
+  height: 30px;
+  border-radius: 5px;
+  border: transparent;
+  color: #33E5BB;
+  background: #022e59;
+  cursor: pointer;
+  font-size: 18px;
+}
+.welcome{
+  color:white;
+  text-align: center;
+}
+.users_header img{
+  width:40px;
+  border-radius:60px;
+}
+h1{
+  font-size:20px
+}
+.users_header{
+border-bottom: 2px solid gray;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+  font-size: 20px;
+  background: #001a33;
+  color: #f1f1f1;
+  padding-top: 10px;
+  gap:20px
+}
+
+.welcome_footer{
+padding-top: 10px;
+}

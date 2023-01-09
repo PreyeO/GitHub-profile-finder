@@ -1,0 +1,13 @@
+.error-404  {
+  background-image: url(../../Components/Assets/error.PNG);
+  background-color:  #001a33;;
+  background-size: contain;
+  width: 100%;
+  height: 100vh;
+}
+.error-card{
+  transform: translateY(300px);
+  color:  #33E5BB;
+  text-align: center;
+  align-items: center;
+}

@@ -1,0 +1,144 @@
+.home{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  background: #001a33;
+  overflow: hidden;
+ 
+  
+}
+.home-card{
+  width:80%;
+  background: #022e59;
+  margin-top: 20px;
+  height: auto;
+  color: #dfd3d3;
+}
+.image img{
+  border-radius: 100px;
+  margin-top: 30px;
+  width: 150px;
+  cursor: pointer;
+}
+.image img:hover{
+  
+  opacity: 0.65;
+}
+
+.home-card .name{
+  font-size: 20px;
+  color: #fff;
+  
+}
+
+.home-card .login{
+  font-size: 15px;
+  color: #33E5BB ;
+}
+.home-card .location{
+  display: flex; 
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  flex-direction: row;
+
+}
+.home-card .bio{
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+
+}
+.home-card .buttons{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+ 
+}
+.home-card button{
+ text-align: center;
+  height: 69px;
+  padding-top: 10px;
+  background: #022e59;
+  color: #dfd3d3;
+  border: 1px solid#33E5BB ;
+  margin-top: 10px;
+  
+  
+}
+ .repo-button button{
+color: #33E5BB;
+}
+.counts{
+  font-size: 20px;
+}
+.home-card button:hover{
+  background-color: #185c9f;
+  cursor: pointer;
+}
+
+
+.span-chart img{
+  
+  display: none;
+ 
+}
+.home-links a{
+  color: #33E5BB;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.home-links{
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+.profile-pic img{
+
+  height: 80px;
+  width: 80px;
+}
+ 
+/* FOOTER */
+main .main{
+  background: #001a33;
+  overflow: hidden;
+}
+.footer{
+  color: #c1b4b4;
+  text-align: center;
+  transform: translateY(10px);
+  
+}
+
+
+@media screen and (min-width: 768px) {
+  .span-chart{
+    display: flex;
+    justify-content: center;
+  }
+  .span-chart img{
+    display: block;
+    text-align: center;
+    height: 200px;
+    width: 350px;
+   
+  
+ 
+  }
+  .chart-image{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+   
+    
+  }
+  .home-card{
+margin-top: 10;
+  }
+}

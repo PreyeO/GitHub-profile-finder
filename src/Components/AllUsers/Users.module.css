@@ -1,0 +1,49 @@
+.users_card img{
+  width:80px;
+  border-radius: 60px;
+  border:3px solid #33E5BB;
+  height: 80px;
+  margin-top: 20px;
+}
+.users_container{
+    margin-top: 20px;
+    color: #dfd3d3;
+    text-align: center;
+    border:1px yellow;
+
+    
+  }
+
+  .users_card{
+   
+    height:350px;
+    background: #022e59
+  }
+  .btn_content{
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    
+  
+  }
+  .btn_content button{
+    border:2px solid #33E5BB;
+    background-color: transparent;
+    color:white;
+  }
+
+  .more_btn button{
+    margin-top: 20px;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    border: transparent; 
+    color: #33E5BB;
+    background:transparent;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  span{
+    font-size: 25px;
+  }
